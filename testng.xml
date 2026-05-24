@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CredoApiSuite" verbose="1">
+
+    <listeners>
+        <listener class-name="org.example.listener.TestResultListener"/>
+    </listeners>
+
+    <test name="UsersApiTests">
+        <classes>
+            <class name="org.example.tests.UsersApiTest"/>
+        </classes>
+    </test>
+
+</suite>
