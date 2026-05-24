@@ -3,12 +3,12 @@
 <suite name="CredoApiSuite" verbose="1">
 
     <listeners>
-        <listener class-name="org.example.listener.TestResultListener"/>
+        <listener class-name="com.credo.listener.TestResultListener"/>
     </listeners>
 
     <test name="UsersApiTests">
         <classes>
-            <class name="org.example.tests.UsersApiTest"/>
+            <class name="com.credo.tests.UsersApiTest"/>
         </classes>
     </test>
 

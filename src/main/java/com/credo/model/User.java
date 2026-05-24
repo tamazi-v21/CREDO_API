@@ -1,4 +1,4 @@
-package org.example.model;
+package com.credo.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

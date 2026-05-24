@@ -1,9 +1,9 @@
-package org.example.client;
+package com.credo.client;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import org.example.config.TestConfig;
+import com.credo.config.TestConfig;
 
 import java.util.Map;
 

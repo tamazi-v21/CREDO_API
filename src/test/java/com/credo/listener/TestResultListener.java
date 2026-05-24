@@ -1,6 +1,6 @@
-package org.example.listener;
+package com.credo.listener;
 
-import org.example.db.TestResultRepository;
+import com.credo.db.TestResultRepository;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;

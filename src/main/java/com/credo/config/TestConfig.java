@@ -1,4 +1,4 @@
-package org.example.config;
+package com.credo.config;
 
 public final class TestConfig {
 

@@ -1,9 +1,9 @@
-package org.example.tests;
+package com.credo.tests;
 
 import io.restassured.response.Response;
-import org.example.client.UsersApiClient;
-import org.example.model.User;
-import org.example.wiremock.UserStubs;
+import com.credo.client.UsersApiClient;
+import com.credo.model.User;
+import com.credo.wiremock.UserStubs;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -11,8 +11,8 @@ import org.testng.annotations.Test;
 import java.util.List;
 import java.util.Map;
 
-import static org.example.wiremock.UserStubs.ALICE;
-import static org.example.wiremock.UserStubs.BOB;
+import static com.credo.wiremock.UserStubs.ALICE;
+import static com.credo.wiremock.UserStubs.BOB;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 

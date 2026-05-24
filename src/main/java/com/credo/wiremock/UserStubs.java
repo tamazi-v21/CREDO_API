@@ -1,12 +1,12 @@
-package org.example.wiremock;
+package com.credo.wiremock;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.tomakehurst.wiremock.client.MappingBuilder;
 import com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder;
 import com.github.tomakehurst.wiremock.client.WireMock;
-import org.example.config.TestConfig;
-import org.example.model.User;
+import com.credo.config.TestConfig;
+import com.credo.model.User;
 
 import java.util.List;
 import java.util.Map;

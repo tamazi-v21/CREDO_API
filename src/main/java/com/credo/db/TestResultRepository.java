@@ -1,6 +1,6 @@
-package org.example.db;
+package com.credo.db;
 
-import org.example.config.TestConfig;
+import com.credo.config.TestConfig;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
